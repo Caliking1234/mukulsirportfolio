@@ -15,7 +15,7 @@ const Navbar = () => {
   const router = usePathname();
   return (
     <>
-      <div className=" absolute top-5 left-[50%] translate-x-[-50%] w-[400px] bg-white rounded-2xl shadow-md shadow-black p-2 hidden sm:flex flex-row items-center justify-around uppercase z-50">
+      <div className=" absolute top-5 left-[50%] translate-x-[-50%] w-[400px] bg-white rounded-2xl shadow-md shadow-gray-500 p-2 hidden sm:flex flex-row items-center justify-around uppercase z-50">
         <Link
           href={"/"}
           className={
