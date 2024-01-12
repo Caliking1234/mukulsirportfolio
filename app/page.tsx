@@ -11,7 +11,10 @@ export default function Home() {
         </h1>
         <div className=" grid grid-cols-3 gap-5 py-5">
           {Array.from({ length: 6 }).map((_, index) => (
-            <div className=" w-[200px] h-[200px] rounded-sm shadow-sm shadow-black overflow-hidden">
+            <div
+              key={index}
+              className=" w-[200px] h-[200px] rounded-sm shadow-sm shadow-black overflow-hidden"
+            >
               <Image
                 alt="img"
                 src={`/images/img${index + 1}.jpg`}
