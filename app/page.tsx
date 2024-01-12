@@ -9,7 +9,7 @@ export default function Home() {
         <h1 className=" text-3xl py-4">
           Some memories is hold closest to my heart
         </h1>
-        <div className=" grid grid-cols-3 gap-5 py-5">
+        <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 py-5">
           {Array.from({ length: 6 }).map((_, index) => (
             <div
               key={index}
