@@ -17,7 +17,9 @@ const Herosection = () => {
         height={500}
       />
       <div className=" text-wrap">
-        <h1 className=" text-6xl font-bold text-white">HI I'M Mukul Pandey</h1>
+        <h1 className=" text-6xl font-bold text-white">
+          HI I&apos;M Mukul Pandey
+        </h1>
         <p className=" text-lg text-white py-2">
           I am a dynamic force—social worker, agriculturist, and businessman
         </p>
