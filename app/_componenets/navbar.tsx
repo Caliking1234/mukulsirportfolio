@@ -65,6 +65,7 @@ const Navbar = () => {
             >
               {router === "/" ? <HomeIcon /> : <span>HOME</span>}
             </Link>
+            <DropdownMenuSeparator />
             <Link
               href={"/about"}
               className={
@@ -75,6 +76,7 @@ const Navbar = () => {
             >
               {router === "/about" ? <UserCircle /> : <span>About</span>}
             </Link>
+            <DropdownMenuSeparator />
             <Link
               href={"/achivements"}
               className={
