@@ -20,7 +20,9 @@ const page = () => {
               Profession
             </p>
             <p className="border-b-2 border-black w-full p-1 text-xs sm:text-base">
-              Social Worker,Agriculturist,Business Man
+              Social Worker,
+              <br />
+              Agriculturist,Business Man
             </p>
           </div>
           <div className=" flex flex-row">
