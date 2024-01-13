@@ -17,7 +17,7 @@ const Aboutherosection = () => {
         <h1 className=" text-6xl font-bold text-black">ABOUT ME</h1>
         <p className=" text-lg text-black py-2">
           I,Mukul Pandey, born on December 30, 1980, in Gorakhpur, is the son of
-          Mithlesh Kumar Pandey. He holds degrees in LLB and MBA, showcasing a
+          Mr. Mithlesh Kumar Pandey. I hold degrees in LLB and MBA, showcasing a
           strong educational background. With a diverse skill set, I am
           well-equipped for professional endeavors in law and business.
         </p>
