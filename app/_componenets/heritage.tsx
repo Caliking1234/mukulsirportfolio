@@ -5,13 +5,21 @@ import img1 from "../../public/images/heritage1.jpg";
 import img2 from "../../public/images/heritage2.jpg";
 import img3 from "../../public/images/heritage3.jpg";
 import img4 from "../../public/images/heritage4.jpg";
-import img5 from "../../public/images/heritage5.jpg";
+// import img5 from "../../public/images/heritage5.jpg";
+import { cn } from "@/lib/utils";
+import { Esteban } from "next/font/google";
+
 import img6 from "../../public/images/heritage6.jpg";
 import img7 from "../../public/images/heritage7.jpg";
 
+const inter = Esteban({
+  subsets: ["latin"],
+  weight: "400",
+});
+
 const Heritage = () => {
   return (
-    <div className="w-full py-5  px-5 sm:px-10">
+    <div className="w-full py-5  px-5 sm:px-10 flex flex-col gap-5">
       <h1 className=" px-2 py-1 border-b-black border-b-2 w-fit text-3xl uppercase ">
         Art & Heritage
       </h1>
@@ -49,6 +57,48 @@ const Heritage = () => {
           >
             <Image alt="a" src={img6} width={280} height={200} />
           </div>
+        </div>
+      </div>
+      <div
+        className={cn(
+          "flex flex-col gap-y-5 text-center py-10",
+          inter.className
+        )}
+      >
+        <div className=" flex flex-col">
+          <p>
+            <span className=" text-3xl">"</span>In the tapestry of my spirit, a
+            symphony of spirituality and love for art unfolds,
+          </p>
+          <p>
+            {" "}
+            Where the underprivileged find solace, and compassion in my heart
+            holds.
+          </p>
+        </div>
+        <div className=" flex flex-col">
+          <p>
+            {" "}
+            I believe in the dance of benevolence, a rhythm that echoes through
+            society,
+          </p>
+          <p>
+            {" "}
+            Giving back, a masterpiece painted with the brush of my
+            capabilities.
+          </p>
+        </div>
+        <div className=" flex flex-col">
+          <p>
+            {" "}
+            In the gallery of life, I am a patron of kindness, a connoisseur of
+            grace,
+          </p>
+          <p>
+            {" "}
+            Where the colors of compassion embrace the canvas, leaving a lasting
+            trace.<span className=" text-3xl">"</span>
+          </p>
         </div>
       </div>
     </div>
