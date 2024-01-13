@@ -1,29 +1,54 @@
 import React from "react";
-import Image from "next/image";
+import Aboutherosection from "../_componenets/aboutherosection";
 
 const page = () => {
   return (
-    <div
-      className=" w-full min-h-screen p-5 object-contain flex flex-col sm:flex-row items-center justify-center gap-5 sm:justify-between"
-      style={{
-        backgroundImage: 'url("/images/aboutpagebg.jpg")',
-        objectFit: "cover",
-      }}
-    >
-      <div className=" w-[280px] h-[280px] sm:w-[400px] sm:h-[400px] overflow-hidden rounded-full flex items-center justify-center">
-        <Image alt="a" src={"/images/mukulsir2.jpg"} width={600} height={600} />
-      </div>
-      <div className="">
-        <h1 className=" text-6xl font-bold text-black">ABOUT ME</h1>
-        <p className=" text-lg text-black py-2">
-          I,Mukul Pandey, born on December 30, 1980, in Gorakhpur, is the son of
-          Mithlesh Kumar Pandey. He holds degrees in LLB and MBA, showcasing a
-          strong educational background. With a diverse skill set, I am
-          well-equipped for professional endeavors in law and business.
-        </p>
-        <p className=" text-black text-xs">
-          I am a dynamic force—social worker, agriculturist, and businessman
-        </p>
+    <div>
+      <Aboutherosection />
+      <div className=" bg-[#FEE4A3] p-5">
+        <div className=" border-black border-2">
+          <div className=" flex flex-row">
+            <p className=" border-r-2 border-b-2 border-black w-full p-1">
+              Qualification
+            </p>
+            <p className="border-b-2 border-black w-full p-1 text-xs sm:text-base">
+              LLB,MBA
+            </p>
+          </div>
+          <div className=" flex flex-row">
+            <p className=" border-r-2 border-b-2 border-black w-full p-1">
+              Profession
+            </p>
+            <p className="border-b-2 border-black w-full p-1 text-xs sm:text-base">
+              Social Worker,Agriculturist,Business Man
+            </p>
+          </div>
+          <div className=" flex flex-row">
+            <p className=" border-r-2 border-b-2 border-black w-full p-1">
+              Special Intrest
+            </p>
+            <p className="border-b-2 border-black w-full p-1 text-xs sm:text-base">
+              Upliftment of underprviledged,health awarness,child
+              education,working for disabled,cow conservation
+            </p>
+          </div>
+          <div className=" flex flex-row">
+            <p className=" border-r-2 border-b-2 border-black w-full p-1">
+              Favourite Intrest
+            </p>
+            <p className="border-b-2 border-black w-full p-1 text-xs sm:text-base">
+              Listening to classical and devational music
+            </p>
+          </div>
+          <div className=" flex flex-row">
+            <p className=" border-r-2 border-b-2 border-black w-full p-1">
+              Sports Club
+            </p>
+            <p className="border-b-2 border-black w-full p-1  text-xs sm:text-base">
+              Swimming,Badminton
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
