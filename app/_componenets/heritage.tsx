@@ -67,8 +67,8 @@ const Heritage = () => {
       >
         <div className=" flex flex-col">
           <p>
-            <span className=" text-3xl">"</span>In the tapestry of my spirit, a
-            symphony of spirituality and love for art unfolds,
+            <span className=" text-3xl">&quot;</span>In the tapestry of my
+            spirit, a symphony of spirituality and love for art unfolds,
           </p>
           <p>
             {" "}
@@ -97,7 +97,7 @@ const Heritage = () => {
           <p>
             {" "}
             Where the colors of compassion embrace the canvas, leaving a lasting
-            trace.<span className=" text-3xl">"</span>
+            trace.<span className=" text-3xl">&quot;</span>
           </p>
         </div>
       </div>
