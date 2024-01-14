@@ -1,5 +1,6 @@
 import React from "react";
 import Aboutherosection from "../_componenets/aboutherosection";
+import Insta from "../_componenets/insta";
 
 const page = () => {
   return (
@@ -52,6 +53,7 @@ const page = () => {
           </div>
         </div>
       </div>
+      <Insta />
     </div>
   );
 };
